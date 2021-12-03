@@ -7,7 +7,7 @@
   .swSwch:after, .swCrnt:before{content:attr(data-light)}
   .swCrnt{margin:0; font-size:12px;opacity:.7;line-height:17px; display:-webkit-box;overflow:hidden}
   
-  .drkM .swDrk{background:var(--darkBsec);box-shadow:0 10px 40px rgba(0,0,0,.2)}
-  .drkM .swSwch:after, .drkM .swCrnt:before{content:attr(data-dark)}
+  .darkMode .swDrk{background:var(--darkBsec);box-shadow:0 10px 40px rgba(0,0,0,.2)}
+  .darkMode .swSwch:after, .darkMode .swCrnt:before{content:attr(data-dark)}
 
 .headIcn{display:none}
