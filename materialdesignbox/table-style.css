@@ -1,0 +1,61 @@
+/* table detail */
+ .Blog table.tr-caption-container{
+    min-width:inherit;
+    width:auto;
+    margin:0 auto;
+    border:0;
+    position:relative
+}
+ .Blog table.tr-caption-container tr td{
+    background-color:transparent;
+    border:0;
+    padding:0
+}
+ .Blog table.tr-caption-container tr:nth-child(2n+1) td, .Blog table.tr-caption-container tr:nth-child(2n+1) td:first-child{
+    border:0;
+    background:transparent
+}
+ .Blog table.tr-caption-container .tr-caption{
+    display:block;
+    font-size:12px;
+    font-style:italic;
+    color:#767676;
+    background-color:transparent;
+    border:0
+}
+ .Blog table{
+    width:100%;
+    margin:20px 0px;
+    border:1px solid rgba(230,230,230,1);
+    border-radius:7px;
+    overflow:hidden;
+    font-size:14px
+}
+ .Blog table th{
+    background-color:transparent;
+    padding:15px 20px;
+    border:1px solid #ddd;
+    border-left:0;
+    font-family:Noto Sans;
+    font-size:13px
+}
+ .Blog table th:last-child, .Blog table tr td:last-child, .Blog table tr:nth-child(2n) td:last-child{
+    border-right:0
+}
+ .Blog table td{
+    padding:15px 20px;
+    border:1px solid #ddd;
+    border-left:0;
+    border-top:0;
+    vertical-align:middle
+}
+ .Blog table tr:nth-child(2n + 1) td{
+    background-color:rgba(0,0,0,.025)
+}
+ .Blog .table{
+    display:block;
+    overflow-y:hidden;
+    overflow-x:auto;
+    border-radius:3px;
+    scroll-behavior:smooth;
+}
