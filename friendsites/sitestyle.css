@@ -4,7 +4,8 @@
 .friendLink li{width: calc(50% - 10px);margin: 0 5px 10px;}
 .friendLink a{background: #f6f6f6;display:block;color:inherit;width:100%; padding:8px 10px;border-radius:4px;line-height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .friendLink a:hover{color:var(--linkC)}
-.drK .friendLink a{background:rgba(0,0,0,.15);color:inherit}
-.drK .friendLink a:hover{color:var(--darkU)}
+.darkMode
+.friendLink a{background:rgba(0,0,0,.15);color:inherit}
+.darkMode .friendLink a:hover{color:var(--darkU)}
 .friendsRules {margin:0;padding:0;line-height:normal;display:block;float:left;background-color:#f6f6f6;font-size:13px;margin-top:-1px;margin: 0 0 8px 0;padding:7px 10px;border-radius: 6px}
-.drK .friendsRules {background-color:rgba(0,0,0,.15)}
+.darkMode .friendsRules {background-color:rgba(0,0,0,.15)}
